@@ -1,0 +1,9 @@
+function eirpDensityDbwPerMHz = calculateBeamEirpDensity( ...
+    relativePatternDb, powerOffsetDb, cfg)
+%calculateBeamEirpDensity Apply pattern, uncertainty, and hard beam ceiling.
+
+eirpDensityDbwPerMHz = cfg.rf.eirpDensityDbwPerMHz + ...
+    relativePatternDb + powerOffsetDb;
+eirpDensityDbwPerMHz = min(eirpDensityDbwPerMHz, ...
+    cfg.rf.maximumBeamEirpDensityDbwPerMHz);
+end
