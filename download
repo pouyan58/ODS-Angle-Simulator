@@ -1,0 +1,19 @@
+# Generated runs and local data
+runs/
+output/
+data/itu_maps/
+tests/tmp_*/
+
+# Large/generated MATLAB artifacts
+**/checkpoint_*.mat
+**/ods_ensemble_results.mat
+*.asv
+*.m~
+
+# Logs, release archives, and editor state
+*.log
+*.zip
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
