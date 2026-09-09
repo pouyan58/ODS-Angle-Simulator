@@ -1,0 +1,3 @@
+TestId,Receiver,FrequencyMHz,BoresightSeparationDeg,BeamPlacementDistanceKm,ApproximatePeakJy,Use,Source
+SCS-T02-GBT,GBT S-band,1992.5,0.715,500,200,Sidelobe calibration benchmark,NRAO RFI Memo 160 pages 5-9
+SCS-T03-GBT,GBT UWBR,1992.5,2.34,210,200,Sidelobe calibration benchmark,NRAO RFI Memo 160 pages 5-13

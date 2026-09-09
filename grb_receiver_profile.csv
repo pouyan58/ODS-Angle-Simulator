@@ -1,0 +1,10 @@
+Parameter,Value,Unit,Status,Source
+Center frequency,1686.6,MHz,NOAA specification,https://www.ospo.noaa.gov/operations/goes/grb/
+Necessary bandwidth for current default QPSK,10.9,MHz,NOAA specification,https://goes-r.noaa.gov/users/docs/GRB_downlink.pdf
+Minimum antenna system G/T at 5 degree elevation,15.2,dB/K,NOAA specification,https://goes-r.noaa.gov/users/docs/GRB_downlink.pdf
+Nominal antenna diameter,4.5,m,NOAA nominal worst-location user receiver,https://www.ospo.noaa.gov/operations/goes/grb/
+Nominal system noise temperature,120,K,NOAA nominal worst-location user receiver,https://www.ospo.noaa.gov/operations/goes/grb/
+Polarization,Dual circular RHCP and LHCP,,NOAA specification,https://goes-r.noaa.gov/users/docs/GRB_downlink.pdf
+Protection criterion,-6,dB I/N,Engineering protection assumption,Public simulator configuration
+Primary modeled availability,95,percent,Engineering protection assumption,Public simulator configuration
+Far-angle receive pattern,Native S.580/APEREC015,,Engineering sensitivity assumption,Public simulator configuration
